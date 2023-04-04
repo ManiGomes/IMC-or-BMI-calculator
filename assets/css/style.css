@@ -174,21 +174,21 @@ body {
 }
 
 @media only screen and (max-width: 950px){
-    #calculator{
+    .calculator{
         width: 85%;
     }
 }
 
 @media only screen and (max-width: 600px){
-    #container {
+    .container {
         flex-direction: column;
     }
 
-    #img {
+    .img {
         display: none;
     }
     
-    #calculator {
+    .calculator {
         width: 100%;
         height: auto;
     }
