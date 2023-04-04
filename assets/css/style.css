@@ -172,3 +172,9 @@ body {
 .hard {
     color: #dd3710;
 }
+
+@media only screen and (max-width: 950px){
+    #calculator{
+        width: 85%;
+    }
+}
