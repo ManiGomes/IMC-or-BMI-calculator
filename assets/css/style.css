@@ -173,24 +173,43 @@ body {
     color: #dd3710;
 }
 
-@media only screen and (max-width: 950px){
-    .calculator{
-        width: 85%;
+@media screen and (max-width: 900px) {
+    #conteiner {
+        width: 85vw;
+        height: auto;
     }
-}
-
-@media only screen and (max-width: 600px){
-    .container {
-        flex-direction: column;
-    }
-
-    .img {
+    #img {
         display: none;
     }
-    
-    .calculator {
-        width: 85%;
-        height: 90vh;
+
+    #calculator {
+        width: 85vw;
+
     }
 
+    #title {
+        font-size: 1.47rem;
+    }
+
+    #result {
+        height: 8vh;
+    }
+
+    #bmi {
+        
+        font-size: 1.125rem;
+    }
+    
+    #bmi span:last-child {
+        font-size: 0.7474rem;
+        margin-bottom: 5px;
+    }
+    
+    #description {
+        font-size: 0.75rem;
+    }
+
+    #moreinfo {
+        padding-top: 0.8rem;
+    }
 }
