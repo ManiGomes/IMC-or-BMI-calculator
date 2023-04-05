@@ -173,7 +173,7 @@ body {
     color: #dd3710;
 }
 
-@media screen and (max-width: 99999999999999999999999999px) {
+@media screen and (max-width: 900px) {
     #conteiner {
         width: 85vw;
         height: auto;
